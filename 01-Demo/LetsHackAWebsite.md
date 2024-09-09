@@ -55,7 +55,7 @@ WMAP is a web vulnerability scanner that integrates with the Metasploit Framewor
 
 3. Integration with Metasploit: Because WMAP is a plugin for Metasploit, you can directly take the information gathered by the WMAP scan and use it to run specific Metasploit modules to exploit the discovered vulnerabilities.
 
-## How to use it?
+## How to use this?
 
 1. Loading the Plugin :: Before using WMAP, we need to load it as a plugin inside Metasploit.
 
