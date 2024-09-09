@@ -1,3 +1,5 @@
+# DISCLAIMER :: THIS IS JUST FOR LEARNING PURPOSE
+
 # Why does it necessay to make our website secure?
 
 The Web is a wild place. It's easy to get the impression that the internet was designed very delibreately by experts and that everything works as it does for a good reason. In fact, the evolution of the internet has been rapid and haphazard, and the things we do on the network today go well beyond what the original inventors imagined. 
