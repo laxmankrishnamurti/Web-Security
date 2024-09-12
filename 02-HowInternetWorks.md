@@ -32,3 +32,4 @@ ISPs and Hosting Companies ===> Provides IP addresses to each and every single c
 IP addresses are binary numbers, generally written in IP version 4(IPv4) syntax, which allows for 2^32 (4,294,967,296) addresses.
 
 [Learn How Memory works](https://github.com/laxmankrishnamurti/Web-Security/blob/main/02.1-HowMemoryWorks.md)
+[File Location](./02.1-HowMemoryWorks.md)
