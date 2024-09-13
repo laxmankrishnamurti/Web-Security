@@ -174,3 +174,54 @@ IPv6 addresses are not categorized into classes but have different types:
     - Link-Local: Used for communication within a local network (fe80::/10).
     - Multicast: Addresses for multicasting (ff00::/8).
     - Loopback: Used to refer to the local machine (::1).
+
+### Total number of Hosts in each class. 
+
+IP address format :: 255.255.255.255
+
+1. Class-A ===> Subnet mask ===> 8-bit(First octets)
+    - Range :: 1-126
+        - Total networks ===> 126
+        - Total hosts in each network ===> 256*256*256 ===> 16,777,216
+        - Total hosts in Class-A network ===> 16,777,216 * 126 ===> 2,113,929,216 Hosts 
+
+2. Class-B ===> Subnet mask ===> 16-bit(First and second octets)
+    - Range :: 128-191
+        - Total networks
+            - From first octets :: (191-128+1) ===> 64
+            - From second octets :: 256
+            - Total networks ===> 256 * 64 ===> 16,384
+        - Total hosts in each network ===> 256*256 ===> 65,536
+        - Total hosts in Class-B network ===> 16,384*65,536 ===> 1,073,741,824 Hosts
+
+3. Class-C ===> Subnet mask ===> 24-bits(First, second, and third octets)
+    - Range :: 192-223
+        - Total networks
+            - From first octets :: (223-192+1) ===> 32
+            - From second octets :: 256
+            - From third octets :: 256
+            - Total networks ===> 32 * 256 * 256 ===> 2,097,152
+        - Total hosts in each network ===> 256
+        - Total hosts in Class-C network ===> 2,097,152 * 256 ===> 536,870,912 Hosts
+
+4. Class-D ===> Subnet mask ===> 0-bit
+    - Note: Class D is used for multicast addresses and does not have hosts. Class D addresses are not used for host-to-host communication, so they don’t count towards the total number of usable IP addresses.
+
+5. Class-E ===> Subnet mask ===> 0-bit
+    - Note: Class E is reserved for future use and experimental purposes. It is not used for general addressing, so it also doesn’t count towards the total number of usable IP addresses.
+
+6. Loopback Network ===> Subnet mast ===> 0-bit
+    - Range :: 127.0.0.0 upto 127.255.255.255
+        - Total networks
+            - From first octets :: 1
+        - Total hosts ===> 256*256*256 ===> 16,777,216 Hosts
+        - Total hosts in Loopback Network ===> 1 * 16,777,216 ===> 16,777,216 Hosts
+    - Note: The loopback range is used for testing within the local machine and does not count towards the global address space.
+
+<code>Total Usable IP Addresses (excluding reserved and non-host ranges) :: ===> (2,113,929,216 + 1,073,741,824 + 536,870,912) ===> 3,724,541,952 Hosts (IP ADDRESSES)</code>
+
+
+Total IP Addresses ===> 4,261,412,864 + 16,777,216 ===> 4,278,190,080
+Possible IP addresses ===> 256*256*256*256 ===> 4,294,967,296
+
+Remaining Addresses :: ===> 4,294,967,296−3,724,541,952 ===> 570,425,344
