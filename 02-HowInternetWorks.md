@@ -221,7 +221,10 @@ IP address format :: 255.255.255.255
 <code>Total Usable IP Addresses (excluding reserved and non-host ranges) :: ===> (2,113,929,216 + 1,073,741,824 + 536,870,912) ===> 3,724,541,952 Hosts (IP ADDRESSES)</code>
 
 
-Total IP Addresses ===> 4,261,412,864 + 16,777,216 ===> 4,278,190,080
-Possible IP addresses ===> 256*256*256*256 ===> 4,294,967,296
-
-Remaining Addresses :: ===> 4,294,967,296−3,724,541,952 ===> 570,425,344
+<code>
+<pre>
+- Total IP Addresses ===> 4,261,412,864 + 16,777,216 ===> 4,278,190,080
+- Possible IP addresses ===> 256*256*256*256 ===> 4,294,967,296
+- Remaining Addresses :: ===> 4,294,967,296−3,724,541,952 ===> 570,425,344
+</pre>
+</code>
