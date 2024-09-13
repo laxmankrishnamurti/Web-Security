@@ -32,3 +32,35 @@ ISPs and Hosting Companies ===> Provides IP addresses to each and every single c
 IP addresses are binary numbers, generally written in IP version 4(IPv4) syntax, which allows for 2^32 (4,294,967,296) addresses.
 
 [Learn How Memory works](./02.1-HowMemoryWorks.md)
+
+    - A computer gets its IP from either a DHCP server (dynamic IP) or through manual configuration (static IP).
+    - The IP address is stored in the computer's network configuration settings.
+    - IPv4 uses 32-bit addresses, while IPv6 uses 128-bit addresses, with vastly different capacities.
+    - The structure of IP addresses includes the network and host identifiers, which enable devices to be located and communicated with on a network.
+        - Example: 192.168.1.1
+            - The first part (192.168) could represent the network.
+            - The second part (1.1) represents the host within that network.
+
+### Types of IP Addresses
+
+Public vs. Private IP Addresses
+
+1. Public IP Address:
+
+   - A public IP address is globally unique and can be accessed over the Internet.
+   - It is assigned by Internet Service Providers (ISPs) to home routers or devices directly connected to the Internet.
+   - Public IP addresses are routable on the Internet, meaning they can communicate with other public IP addresses.
+
+2. Private IP Address:
+
+   - A private IP address is used within local networks (e.g., home, office networks) and is not routable over the public Internet.
+   - Devices in private networks use private IP addresses to communicate with each other. A router with Network Address Translation (NAT) translates these private IP addresses to a public IP address when communicating with the Internet.
+   - Private IP ranges:
+     - 10.0.0.0 – 10.255.255.255
+     - 172.16.0.0 – 172.31.255.255
+     - 192.168.0.0 – 192.168.255.255
+
+<code>Loopback IP Address</code> - A loopback address is used to test the local network stack of a device. It allows a computer to send data to itself.
+
+- IPv4 loopback address: 127.0.0.1
+- IPv6 loopback address: ::1
