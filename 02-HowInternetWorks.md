@@ -131,35 +131,37 @@ IP addresses are categorized into different classes and types based on their int
 
 <code>1. IPv4 Address Classes:</code>
 
+<pre>
 Class	        IP Range            	    Default Subnet Mask	            Usage <br/>
 Class A	        1.0.0.0 – 126.255.255.255	255.0.0.0 (8 bits)	    Large networks (e.g., ISPs)
-<br/>
 Class B	        128.0.0.0 – 191.255.255.255	255.255.0.0 (16 bits)	Medium-sized networks (e.g., universities)
-<br/>
 Class C	        192.0.0.0 – 223.255.255.255	255.255.255.0 (24 bits)	Small networks (e.g., private networks)
-<br/>
 Class D	        224.0.0.0 – 239.255.255.255	N/A	                    Multicasting
-<br/>
 Class E	        240.0.0.0 – 255.255.255.255	N/A	    Reserved for research and experimental use
-<br/>
+</pre>
+
 <code>Note: 127.0.0.0 to 127.255.255.255 is reserved for loopback addresses (typically 127.0.0.1).</code>
 
 <code>2. Private IP Address Ranges:</code>
 
 These are used for internal networks and are not routable on the public Internet.
 
-Class	        Private IP Range	                Usage<br/>
-Class A	    10.0.0.0 – 10.255.255.255	            Large private networks<br/>
-Class B	    172.16.0.0 – 172.31.255.255	            Medium private networks<br/>
-Class C	    192.168.0.0 – 192.168.255.255	        Small private networks<br/>
+<pre>
+Class	        Private IP Range	                Usage
+Class A	    10.0.0.0 – 10.255.255.255	            Large private networks
+Class B	    172.16.0.0 – 172.31.255.255	            Medium private networks
+Class C	    192.168.0.0 – 192.168.255.255	        Small private networks
+</pre>
 
 <code>3. Special IPv4 Addresses:</code>
 
-Category	    IP Range	                            Usage<br/>
-Loopback	    127.0.0.0 – 127.255.255.255	        Testing local device (localhost)<br/>
-Link-Local	    169.254.0.0 – 169.254.255.255	    Auto-configuration (APIPA)<br/>
-Multicast	    224.0.0.0 – 239.255.255.255	        Used for multicasting (Class D)<br/>
-Broadcast	    255.255.255.255	                    Broadcast to all devices in network<br/>
+<pre>
+Category	    IP Range	                            Usage
+Loopback	    127.0.0.0 – 127.255.255.255	        Testing local device (localhost)
+Link-Local	    169.254.0.0 – 169.254.255.255	    Auto-configuration (APIPA)
+Multicast	    224.0.0.0 – 239.255.255.255	        Used for multicasting (Class D)
+Broadcast	    255.255.255.255	                    Broadcast to all devices in network
+</pre>
 
 <code>4. Public IP Addresses:</code>
 
