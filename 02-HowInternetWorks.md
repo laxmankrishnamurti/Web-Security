@@ -132,12 +132,12 @@ IP addresses are categorized into different classes and types based on their int
 <code>1. IPv4 Address Classes:</code>
 
 <pre>
-Class	        IP Range            	    Default Subnet Mask	            Usage <br/>
-Class A	        1.0.0.0 – 126.255.255.255	255.0.0.0 (8 bits)	    Large networks (e.g., ISPs)
-Class B	        128.0.0.0 – 191.255.255.255	255.255.0.0 (16 bits)	Medium-sized networks (e.g., universities)
-Class C	        192.0.0.0 – 223.255.255.255	255.255.255.0 (24 bits)	Small networks (e.g., private networks)
-Class D	        224.0.0.0 – 239.255.255.255	N/A	                    Multicasting
-Class E	        240.0.0.0 – 255.255.255.255	N/A	    Reserved for research and experimental use
+Class & Format     IP Range            	    Default Subnet Mask	            Usage <br/>
+Class A(01xxxxxx)  1.0.0.0 – 126.255.255.255	255.0.0.0 (8 bits)	    Large networks (e.g., ISPs)
+Class B(10xxxxxx)  128.0.0.0 – 191.255.255.255	255.255.0.0 (16 bits)	Medium-sized networks (e.g., universities)
+Class C(11xxxxxx)  192.0.0.0 – 223.255.255.255	255.255.255.0 (24 bits)	Small networks (e.g., private networks)
+Class D(111xxxxx)  224.0.0.0 – 239.255.255.255	N/A	                    Multicasting
+Class E(1111xxxx)  240.0.0.0 – 255.255.255.255	N/A	    Reserved for research and experimental use
 </pre>
 
 <code>Note: 127.0.0.0 to 127.255.255.255 is reserved for loopback addresses (typically 127.0.0.1).</code>
