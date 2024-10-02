@@ -16,7 +16,7 @@ When a computer sends a message to another machine via TCP, the message is split
 
 TCP has undergone significant improvements as the internet has grown. Packets are now send with a "checksum" that allows recipients to detect data corruption and determine whether packetes need to be resent.
 
-Sendersa also preemptively adjust the rate at which they send data according to how fast it's being consumed. Because Internet servers are usually magnitudes more powerful than a client that receive their messages, so they need to be careful not to overwhelm the client's capacity.
+Sender also preemptively adjust the rate at which they send data according to how fast it's being consumed. Because Internet servers are usually magnitudes more powerful than a client that receive their messages, so they need to be careful not to overwhelm the client's capacity.
 
 TCP(Transmission Control Protocol) ===> Delivery Guarantees. (Mostly used protocol in web).
 UDP(User Datagram Protocol) ===> Data packets could be lost. (Mostly used in streaming live video.)
@@ -230,3 +230,75 @@ IP address format :: 255.255.255.255
 </code>
 
 TODO ===> In the counting of usable IP address needs improvement.
+
+## APPLICATION LAYER PROTOCOL
+
+TCP allows two computers to reliably exchange data on the internet, but it doesn't dictate how the data being sent should be interpreted. For that to happen, both computers need to agree to exchange information through another, hight levell-protocol in the suite.
+
+Protocols that build on top of TCP (or UDP) are called _"application level protocols"_.
+
+The lower-level protocols of the internet protocol suite provide basic data routing over a network, while the higher-level protocols in the application layer provide more structure for applications exchanging data.
+
+### _Different layers with protocols_
+
+_application layer_ ===> DNS, FTP, HTTP, IMAP(internet message access protocol), POP(post office protocol), SMTP, SSH, XMPP(extensible messaging and presence protocol) ===> (instant messaging)
+_transport layer_ ===> TCP, UDP
+_internet layer_ ===> IPv4, IPv6
+_network layer_ ===> ARP(address resolution protocol), MAC(media access control), NDP(neighbor discovery protocol), OSPF(open shortest path first), PPP(point-to-point protocol)
+
+_Web servers use the HTTP(Hyper text transfer protocol) to transport web pages and their resources to user agents such as web browsers._
+
+### Flow of request
+
+User agent ===> Request(for particular resources) ===> Server intercept the request ===> Send the resources (statusCode, message, data-requested data).
+
+### HTTP Requests
+
+An HTTP request sent by a browser consists of the following elements:
+
+- _METHOD_ ===> GET, POST, PATCH, DELETE
+- _URL_ ===> Address of that particular resource which is available on the internet.
+- _HEADERS_ ===> Metadata(data about data)
+- _BODY_ ===> Optional component contains any extra data that needs to be sent to the server.
+
+### HTTP Response
+
+An HTTP response sent by the server to the user agent which includes:
+
+- _PROTOCOL DESCRIPTION_ ===> Ex :- HTTP/1.1
+- _STATUS CODE_ ===> To know what happens with the request
+- _STATUS MESSAGE_ ===> Request was understood, accepted, and responded
+- _HTTP HEADERS_ ===> Metadata(data about data)
+- _RESPONSE / REQUESTED RESOURCES_ ===> Actual data
+
+### Status Code
+
+100 - 199 ===> Informational
+200 - 299 ===> Success
+300 - 399 ===> Redirection
+400 - 499 ===> Client side error
+500 - 599 ===> Server side error
+
+## Stateful Connections
+
+State means any stored _data_.
+
+When a user agents hits a request to a particular web server and the server respond back with some sort of data that event is called as a connection. So, what does it mean by stateful connection? Lets understand.
+
+Web servers typically deal with many user agents at once, but HTTP does nothing to distinguish which requests are coming from which user agent. This wasn't an important consideration in the early days of the internet, because web pages were largely read-only. But, Modern websites, however, often allow users to log in and will track their activity as they visit and interact with different pages.
+
+A connection or conversation between a client and a server is stateful when they perform a _"handshake"_ and continue to send packets back and forth until one of the communicating parties decides to terminate the connection.
+
+When a web server wants to keep track of which user it's responding to with each request, and thus achieve a stateful HTTP conversation, it needs to establish a mechanism to track the user agent as it makes the subsequent requests.
+
+The entire conversation between a particular user agent and a web server is called an HTTP session. The most common way of tracking sessions is for the server to send abck a _Set-Cookie_ header in the initial HTTP response.
+
+Now, whenever the user agent makes subsequent request it also sends the cookie that server has given to them for _authentication_ and the session will not disconnect or expire until the user explicitly logout or cookie get expired.
+
+### FLOW
+
+User agent ===> 1st request to the server <=== Server send a Cookie in Set-Cookie header ===> User agent store the cookie in their cookie storage area.
+
+User agent (with subsequent request) ===> Sends Payload(optional), The Cookie ===> Server use the cookie for authentication and verify the user agent or the user who is logged in.
+
+Cookie Expired / Explicitly logged out ===> User needs to signin again ===> Server will generate a new cookie and it to the user agent along with the appropriate data.
