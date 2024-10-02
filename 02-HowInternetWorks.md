@@ -302,3 +302,17 @@ User agent ===> 1st request to the server <=== Server send a Cookie in Set-Cooki
 User agent (with subsequent request) ===> Sends Payload(optional), The Cookie ===> Server use the cookie for authentication and verify the user agent or the user who is logged in.
 
 Cookie Expired / Explicitly logged out ===> User needs to signin again ===> Server will generate a new cookie and it to the user agent along with the appropriate data.
+
+## ENCRYPTION
+
+When the web was invented, HTTP requests and responses were sent in plaintext form, which meant they could be read by anyone intercepting the data packets; this kind of interception is known as a man-in-the-middle attack.
+
+Becasue private communication and online transactions are common on the modern web, web server and browsers protext their users from such attacks by using _encryption._
+
+_Encryption is a method of disguising the contents of messages from prying eyes by encoding them during transmission._
+
+To secure their communications, web server and browsers send requests and responses by using _Transport Layer Security(TLS)_, a method of encryption that provides both privacy and data integrity.
+
+_HTTP conversations conducted using TLS are called HTTP Secure (HTTPS)._
+
+HTTPS requires the client and server to perform a TLS _handshake_ in which both partied agree on an encryption method and exchange encryption keys. Once the handshake is complete, any further messages(both requests and responses) will be opaque to outsiders.
