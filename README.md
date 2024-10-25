@@ -1,4 +1,8 @@
-# Book Reference :: _WEB SECURITY FOR DEVELOPERS BY malcolm mcdonald_
+# Special thanks to ::
+
+- Malcolm mcdonald
+  - Book ===> _web security for developers_
+  - [Buy the book](https://www.amazon.in/Web-Security-Developers-Malcolm-McDonald/dp/1593279949)
 
 ## DISCLAIMER :: THIS IS JUST FOR LEARNING PURPOSE AND TO MAKE YOUR WEBSITE SECURE FROM ATTACKS(A short notes)
 
