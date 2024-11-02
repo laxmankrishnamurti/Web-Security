@@ -1,19 +1,18 @@
 # How to find security flaws(Vulnerabilities) in a website?
 
-In Kali Linux there is a framework called "Metasploit". It is the most popular command line tool for testing the security of websites and checking for vulnerabilities. 
+In Kali Linux there is a framework called "Metasploit". It is the most popular command line tool for testing the security of websites and checking for vulnerabilities.
 
-## There are currently 5677 Metasploit modules. These are :- 
+## There are currently 5677 Metasploit modules. These are :-
 
 1. auxiliary (1260)
 
 - Auxiliary modules do not exploit a target, but can perform useful tasks such as:
-    - Administration - Modify, operate, or manipulate something on target machine
-    - Analyzing - Tools that perform analysis, mostly password cracking
-    - Gathering - Gather, collect, or enumerate data from a single target
-    - Denial of Service - Crash or slow a target machine or service
-    - Scanning - Scan targets for known vulnerabilities
-    - Server Support - Run Servers for common protocols such as SMB, FTP, etc
-
+  - Administration - Modify, operate, or manipulate something on target machine
+  - Analyzing - Tools that perform analysis, mostly password cracking
+  - Gathering - Gather, collect, or enumerate data from a single target
+  - Denial of Service - Crash or slow a target machine or service
+  - Scanning - Scan targets for known vulnerabilities
+  - Server Support - Run Servers for common protocols such as SMB, FTP, etc
 
 2. encoder (49) :: Encoders take the raw bytes of a payload and run some sort of encoding algorithm, like bitwise XOR. These modules are useful for encoding bad characters such as null bytes.
 
@@ -29,9 +28,9 @@ In Kali Linux there is a framework called "Metasploit". It is the most popular c
 
 [Read the Documentation](https://docs.metasploit.com/docs/modules.html)
 
-## How to find vulnerabilities in a website. 
+## How to find vulnerabilities in a website.
 
-We have WMAP  plugin helps to find basic security flaws in a web-app.
+We have WMAP plugin helps to find basic security flaws in a web-app.
 
 ## What is WMAP?
 
@@ -46,12 +45,13 @@ WMAP is a web vulnerability scanner that integrates with the Metasploit Framewor
 1. Website Discovery: WMAP first crawls the target website, mapping out its structure by identifying web pages, forms, links, and parameters.
 
 2. Vulnerability Scanning: Once the site has been mapped, WMAP scans the web pages for common vulnerabilities. It can perform different kinds of tests, such as:
-    - SQL Injection
-    - Cross-Site Scripting (XSS)
-    - File Inclusion
-    - Directory Traversal
-    - Unsecure Authentication Methods
-    - And other common web vulnerabilities
+
+   - SQL Injection
+   - Cross-Site Scripting (XSS)
+   - File Inclusion
+   - Directory Traversal
+   - Unsecure Authentication Methods
+   - And other common web vulnerabilities
 
 3. Integration with Metasploit: Because WMAP is a plugin for Metasploit, you can directly take the information gathered by the WMAP scan and use it to run specific Metasploit modules to exploit the discovered vulnerabilities.
 
@@ -87,3 +87,31 @@ $ wmap_report -l
 ```bash
 $ search sql_injection
 ```
+
+## How hackers gain remote access to computer?
+
+- **1. Exploiting Software Vulnerabilities**
+
+  - Unpatched Software
+  - Zero-Day Exploits
+
+- **2. Phishing and Social Engineering**
+
+- **3. Malware Infections**
+  - Remote Access Trojans (RAT)
+  - Keylogger
+    - Recods everything a user types
+  - Spyware
+    - Monitors user activities, including browser habit and loging credentials, and transmit the information back to the hacker.
+
+**4. Weak or Reused Passwords**
+
+**5. Network Vulnerabilities** - Wifi-eavesdropping - PORT scannig
+
+**6. Man-in-the-middle a**
+
+**7. Exploiting Remote Desktop Protocols (RDP)**
+
+Many companies use RDP to enable employees to access their work computers remotely. Hackers exploit weak RDP credentials or poorly secured RDP configurations to gain access to these computers.
+
+**8. Botnets and Distributed Attacks**
