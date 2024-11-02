@@ -1,4 +1,10 @@
-# DISCLAIMER :: THIS IS JUST FOR LEARNING PURPOSE AND TO MAKE YOUR WEBSITE SECURE FROM ATTACKS(A short notes)
+# Special thanks to ::
+
+- Malcolm mcdonald
+  - Book ===> _web security for developers_
+  - [Buy the book](https://www.amazon.in/Web-Security-Developers-Malcolm-McDonald/dp/1593279949)
+
+## DISCLAIMER :: THIS IS JUST FOR LEARNING PURPOSE AND TO MAKE YOUR WEBSITE SECURE FROM ATTACKS(A short notes)
 
 # Why does it necessay to make our website secure?
 
@@ -18,7 +24,7 @@ On today's internet, exploits get rapidly weaponized and incorporated iinto comm
 
 ## Let's practice how to secure our website against 99% of attacks.
 
-Install Kali Linux on your system either using virtual box or just install like a full-fledged Operating System.
+Install Kali Linux on your system either using virtual box or just install as a full-fledged Operating System.
 
 Note:- You'll be crying a lot a little bit, probably a lot and it is not going to be an easy journey. Probably your videos are not going to play, probably your driver is not going to make sense but the fast pace way of learning Linux is simply to install it on your main machine and cry out everyday.
 
