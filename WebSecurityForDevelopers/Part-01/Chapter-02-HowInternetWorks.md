@@ -25,13 +25,13 @@ UDP(User Datagram Protocol) ===> Data packets could be lost. (Mostly used in str
 
 Data packets on the internet are sent to Internet Protocol(IP) addresses, numbers assigned to individual internet-connected computers. Each IP address must be unique, so new IP addresses are issued in a structured fashion.
 
-Highest Level Authority ===> ICANN(Internet Corporation for Assigned Names and Numbers)
-Regional Authorities ===> Grants the blocks of addresses.
-ISPs and Hosting Companies ===> Provides IP addresses to each and every single computer, servers or mobile devices that are connected to the internet.
+- Highest Level Authority ===> ICANN(Internet Corporation for Assigned Names and Numbers)
+- Regional Authorities ===> Grants the blocks of addresses.
+- ISPs and Hosting Companies ===> Provides IP addresses to each and every single computer, servers or mobile devices that are connected to the internet.
 
 IP addresses are binary numbers, generally written in IP version 4(IPv4) syntax, which allows for 2^32 (4,294,967,296) addresses.
 
-[Learn How Memory works](./02.1-HowMemoryWorks.md)
+[Learn How Memory works](./Chapter-02.1-HowMemoryWorks.md)
 
     - A computer gets its IP from either a DHCP server (dynamic IP) or through manual configuration (static IP).
     - The IP address is stored in the computer's network configuration settings.
