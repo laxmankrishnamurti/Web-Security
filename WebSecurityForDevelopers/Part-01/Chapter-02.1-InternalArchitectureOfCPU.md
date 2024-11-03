@@ -23,38 +23,38 @@ Let's begin to learn about the internal architecture of central processing unit 
 
 **5. Let's zoom into a nanoscopic view of the integrated circuit so we can see indivisual transistors. These transistors are incredibly small, only a few nanometers wide and in this die there are approximately 8 to 10 billion. On top of the transistors are multiple layers of metal wires with vias rising vertically between the layers. Together these transistors and wires create a multilayer labyrinth or highway resulting in a computer that can execute billions of operations every second.**
 
-[Outer view](https://drive.google.com/file/d/1SF5Rq0CuJxs1eqEE2nBaaN4_xqPn5tL9/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1m9He-V4UngYQIFuNJfS2WvlVZTHA5gZw/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1SpQCuSRdN_kdk-DX0TFBW1WOj8SR5hlk/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1NYTYJkCXQAiR8gCAUccfItDk0FPIdlod/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1VJByPDW28aNy_6VNZmCqrteGl4BGqhtW/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1nC8z6WkCyrxq8aYAfRLlcb-obwPSfuU4/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1xVNpfRzOENK3dFVJaz0MBnYfrSBNBbdp/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1nyyRt35GnDgmBp-RpaKOk7o645mQu6nf/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1csYWS884QyH6pF9AYPl9f6eDKuOEJXdu/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1YYv9Js0h71XzlJV8mRgHPlEvXGSYNVUj/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1Uxugu9K2UVOErGWjexYHuQBYQHufHkNr/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1uFz-ZCEnTg9R48fLSmQBa3EVjw9yFOoz/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1J17Xl2TIcuRiWKjMJRu1aeQrf_2zn9HW/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/12WuQ5H6XHzyg_YMI8mX-o3KMpKJs2ZQI/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1EGQqmSCdGMC3L9U-RSDehzKL4GAkHeeB/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1093fZ3Z1V-TkgoL2RMRR8B9HyoiKzmHF/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1iwrqk96me5l8DTLJuJkwrUg2agj8QMis/view?usp=sharing)
-[Zooming......](https://drive.google.com/file/d/1gPX7zobd_RUBllLLUmD3WaeBo55MxvIz/view?usp=sharing)
+- [Outer view](https://drive.google.com/file/d/1SF5Rq0CuJxs1eqEE2nBaaN4_xqPn5tL9/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1m9He-V4UngYQIFuNJfS2WvlVZTHA5gZw/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1SpQCuSRdN_kdk-DX0TFBW1WOj8SR5hlk/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1NYTYJkCXQAiR8gCAUccfItDk0FPIdlod/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1VJByPDW28aNy_6VNZmCqrteGl4BGqhtW/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1nC8z6WkCyrxq8aYAfRLlcb-obwPSfuU4/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1xVNpfRzOENK3dFVJaz0MBnYfrSBNBbdp/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1nyyRt35GnDgmBp-RpaKOk7o645mQu6nf/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1csYWS884QyH6pF9AYPl9f6eDKuOEJXdu/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1YYv9Js0h71XzlJV8mRgHPlEvXGSYNVUj/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1Uxugu9K2UVOErGWjexYHuQBYQHufHkNr/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1uFz-ZCEnTg9R48fLSmQBa3EVjw9yFOoz/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1J17Xl2TIcuRiWKjMJRu1aeQrf_2zn9HW/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/12WuQ5H6XHzyg_YMI8mX-o3KMpKJs2ZQI/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1EGQqmSCdGMC3L9U-RSDehzKL4GAkHeeB/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1093fZ3Z1V-TkgoL2RMRR8B9HyoiKzmHF/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1iwrqk96me5l8DTLJuJkwrUg2agj8QMis/view?usp=sharing)
+- [Zooming......](https://drive.google.com/file/d/1gPX7zobd_RUBllLLUmD3WaeBo55MxvIz/view?usp=sharing)
 
 **6. Let's now zoom out and look at other sections of the CPU. To the side of each core is the shared _L3 memory cache_ and ring interconnect.**
 
-[L_3 Memory cache](https://drive.google.com/file/d/1y-1uTsAoJ1VOy1k8yrMT2djRsrD7yRz1/view?usp=sharing)
-[Ring interconnect](https://drive.google.com/file/d/1gV3ZHfrRFFEk5DWkrvrc2dNGA9w51Kys/view?usp=sharing)
+- [L_3 Memory cache](https://drive.google.com/file/d/1y-1uTsAoJ1VOy1k8yrMT2djRsrD7yRz1/view?usp=sharing)
+- [Ring interconnect](https://drive.google.com/file/d/1gV3ZHfrRFFEk5DWkrvrc2dNGA9w51Kys/view?usp=sharing)
 
 **7. On the far right in a intergrated graphics processor which functions as a less powerful GPU;**
 
-[Integrated graphics processor](https://drive.google.com/file/d/18ZrE9Kzhb5oM-or36PVXdspLc1wD-TrP/view?usp=sharing)
+- [Integrated graphics processor](https://drive.google.com/file/d/18ZrE9Kzhb5oM-or36PVXdspLc1wD-TrP/view?usp=sharing)
 
 **8. In the top left is the memory controller which sends data to and from the _DRAM_**
 
-[Memory controller](https://drive.google.com/file/d/1pK0n3vPwEoMmNYeA0e0ZwJGVB94joXtU/view?usp=sharing)
+- [Memory controller](https://drive.google.com/file/d/1pK0n3vPwEoMmNYeA0e0ZwJGVB94joXtU/view?usp=sharing)
 
 **9. And finally on the far left is the system agent and platform _I/O_, which communicates with the chipset on the motherboard and manages the flow of data between many of the other components in our PC.**
 
-[System agent](https://drive.google.com/file/d/1IJX-hS9spiY7OlwDda20Hk0YhPU9sHwL/view?usp=sharing)
+- [System agent](https://drive.google.com/file/d/1IJX-hS9spiY7OlwDda20Hk0YhPU9sHwL/view?usp=sharing)
