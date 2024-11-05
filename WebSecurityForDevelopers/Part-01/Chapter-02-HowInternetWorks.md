@@ -31,7 +31,7 @@ Data packets on the internet are sent to Internet Protocol(IP) addresses, number
 
 IP addresses are binary numbers, generally written in IP version 4(IPv4) syntax, which allows for 2^32 (4,294,967,296) addresses.
 
-[Learn How Memory works](./Chapter-02.1-HowMemoryWorks.md)
+[Learn How Memory works](./Chapter-02.2-HowMemoryWorks.md)
 
     - A computer gets its IP from either a DHCP server (dynamic IP) or through manual configuration (static IP).
     - The IP address is stored in the computer's network configuration settings.
