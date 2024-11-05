@@ -6,22 +6,24 @@ Because most internet users interact with websites through a browser. So, it's a
 
 In short, browsers does these two main important thing
 
-1. Fetching the resources over the internet
-2. Render the resource on the webpage which we see on our screen.
+1. Fetch the resources which we want, over the internet
+2. Rendered the resource on the webpage.
 
 Yes, these are the two main important task that a browser is used for. Let's understand one-by-one.
 
 # Fetching the resources that we request over the internet.
 
 1. We hit url or any keyword in the search bar or address bar.
-2. If it is a URL, first of all browser resolve the domain name to an IP address and go to the server and request the resources which we want from the server.
+2. If it is a URL, first of all browser resolve the domain name to an IP address and go to the server and request the resources which we want from the server. Browser map the domain name to their respective IP address with the help of :-
 
 - Operating system's DNS cache
 - ISP DNS cache
 - Authoritative DNS server.
 
-3. If we enter any keyword or a string in the address bar or in the search bar, the browser's search engine search the similar keyword over the internet and shows result on the page in the form of website's link, when we click on any link it will do the same as it does with the URL.
+3. If we enter any keyword or a string in the address bar or in the search bar, the browser's search engine search the similar keyword over the internet and shows the best possible result on the page along with the website, when we click on any link it will do the same as it does with the URL.
+
 4. Server will respond back and send appropriate result.
+
 5. Browser receive the response and render it to the webpage in visual representation.
 
 In short, browser used for making HTTP request over the internet and helps to find out the particular resources on the internet.
@@ -35,12 +37,12 @@ Browser is just a software which consists:
 
 ## Rendering Pipeline ?
 
-The software component within a web browser that's responsible for transforming a web page's HTML into the visual representation which we see onscreen is called the _rendering pipeline._
+The software component within a web browser that's responsible for transforming a web page's HTML into the visual representation which we see onscreen, is called the _rendering pipeline._
 
 It is responsible for:
 
-- parsing the page's HTML.
-- Understanding the structure and content of the document, and converting it to a series of drawing operations that the operating system can understand.
+- parsing the HTML page.
+- Understand the structure and the content of the document, and converting it to a series of drawing operations that the operating system can understand.
 
 ## What HTML exactly is ?
 
@@ -50,13 +52,29 @@ HTML was envisioned as a _markup language_, meaning it described the web page by
 
 Browser receives an HTTP response containing HTML ===> Parse ===> Into a DOM.
 
-1. DOM ===> DOM is basically a data structure describing the HTML document as a series of nested elements called DOM nodes.
+1. DOM ===> DOM is basically a _data structure_ describing the HTML document as a series of nested elements. Each element in the DOM is called a DOM node.
 
 DOM nodes can contain text content, or contain other DOM nodes, means each node can contain other nodes in a branching fashion.
 
-2. If node contains any script, videos, or external URL, browser must make an HTTP request and does the same as previous one which we already discussed.
+2. If node contains any script, videos, or external URL, browser makes a HTTP request and does the same as previous one which we already discussed.
+
 3. They close unclose tags, insert missiing tags, and ignore corrupted tags as needed.
 4. Finally it will loaded in the memory (RAM)
+
+```js
+- document object model structure
+  - node
+    - text content
+    - other nodes
+  - script node
+    - HTTP request
+    - download the resource
+    - load into the dom
+
+  - close unclose tags, insert missing tags, ignore corrupted tags
+
+- Finally load the drawing or the data structure into the main memory
+```
 
 ## Styling information
 
@@ -100,7 +118,13 @@ For this reason, modern browsers heavily restrict JavaScript with the browser se
 
 ## Rendering full process
 
-Response as HTML ===> Parsed into DOM ===> Loaded into RAM(chunks of drawing into semantic tags) ===> Styling ===> JavaScript Code Execution(if script tag is loaded) ===> Parallely(DOM, Styling, JavaScript code execution) ===> A blank web-page will rendered by the browser to arrange all drawings based on their sytling.
+- Response as HTML
+- Parsed into DOM
+- Loaded into RAM(chunks of drawing into semantic tags)
+- Styling
+- JavaScript Code Execution(if script tag is loaded)
+- Parallely(DOM, Styling, JavaScript code execution)
+- A blank web-page will rendered by the browser to arrange all drawings based on their sytling.
 
 - JavaScript
   - Interact with DOM document and make changes
@@ -111,3 +135,4 @@ Response as HTML ===> Parsed into DOM ===> Loaded into RAM(chunks of drawing int
 1. Browser connect with the operating system to resolve and cache DNS addresses.
 2. Interpret and verify security certificates, encode requests in HTTPS.
 3. Store and transmit cookies.
+   `
