@@ -59,14 +59,14 @@ DOM nodes can contain text content, or contain other DOM nodes, means each node 
 2. If node contains any script, videos, or external URL, browser makes a HTTP request and does the same as previous one which we already discussed.
 
 3. They close unclose tags, insert missiing tags, and ignore corrupted tags as needed.
-4. Finally it will loaded in the memory (RAM)
+4. Finally it will load the DOM in the memory (RAM)
 
 ```js
 - document object model structure
   - node
     - text content
     - other nodes
-  - script node
+  - script node (parsing will stop this depends on how the script tag is embedded in the document.)
     - HTTP request
     - download the resource
     - load into the dom
@@ -120,11 +120,12 @@ For this reason, modern browsers heavily restrict JavaScript with the browser se
 
 - Response as HTML
 - Parsed into DOM
-- Loaded into RAM(chunks of drawing into semantic tags)
 - Styling
 - JavaScript Code Execution(if script tag is loaded)
 - Parallely(DOM, Styling, JavaScript code execution)
+- Loaded into RAM(chunks of drawing into semantic tags)
 - A blank web-page will rendered by the browser to arrange all drawings based on their sytling.
+- Finally, browser starts painting the blank webpage.
 
 - JavaScript
   - Interact with DOM document and make changes
@@ -133,6 +134,11 @@ For this reason, modern browsers heavily restrict JavaScript with the browser se
 # Other tasks that a browser does.
 
 1. Browser connect with the operating system to resolve and cache DNS addresses.
-2. Interpret and verify security certificates, encode requests in HTTPS.
-3. Store and transmit cookies.
-   `
+
+2. Once the TCP connection has been established, the browser constructs an HTTP _GET_ request to the domain name. TCP splits the HTTP request into packets and sends them to the server to be reassembled.
+
+3. At this point, the HTTP conversation upgrades to HTTPS to ensure secure communication. The browser and server undertake a TLS handshake, agree on an encryption cypher, and exchange encryption keys.
+
+4. Interpret and verify security certificates, encode requests in HTTPS.
+
+5. Store and transmit cookies.
