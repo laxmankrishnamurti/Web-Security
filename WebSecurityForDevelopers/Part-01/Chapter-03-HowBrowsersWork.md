@@ -1,3 +1,5 @@
+# Chapter :: 03 :: How Browsers Work?
+
 # Why?
 
 Because most internet users interact with websites through a browser. So, it's a must to know how browsers work to build a secure website. Let's get started........

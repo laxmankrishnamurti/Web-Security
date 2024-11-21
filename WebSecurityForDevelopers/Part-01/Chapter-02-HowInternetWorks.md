@@ -1,4 +1,4 @@
-# How the Internet works?
+# Chapter :: 02 :: How the Internet works?
 
 This is the crucial stage for any web security engineers to understand the basics and underlying concepts of web technologies and its' protocols. We must have knowledge about how computers exchange data over the web.
 
