@@ -1,5 +1,9 @@
 # Special thanks to ::
 
+- Ric Messier
+  - Book ===> _CEHv12_
+  - [Buy the book](https://amzn.in/d/hGdJ6zL)
+
 - Malcolm mcdonald
   - Book ===> _web security for developers_
   - [Buy the book](https://www.amazon.in/Web-Security-Developers-Malcolm-McDonald/dp/1593279949)
