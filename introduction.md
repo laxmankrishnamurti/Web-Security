@@ -1,6 +1,6 @@
 # Where to start?
 
-**`1. Computer Networks`**
+**`1. Computer Networks (Ric Messier)`**
 
 **`2. Operating System`**
 
