@@ -4,7 +4,7 @@
 
 **`2. Operating System`**
 
-**`3. What is the key difference between different Operating System`**
+**`3. What is the key difference between different Operating Systems`**
 
 **`4. Linux Operating System`**
 
